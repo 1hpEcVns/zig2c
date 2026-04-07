@@ -1,0 +1,11 @@
+*.asm
+*.bc
+*.ir
+*.ll
+*.o
+*.opt.ll
+*.c.new
+*.c.orig
+*.c.orig2
+*~
+*~
