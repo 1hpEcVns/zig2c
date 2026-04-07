@@ -19,6 +19,8 @@
             llvmPackages_latest.lldb
             helix
             zls
+            llvmPackages_latest.llvm
+            binaryen
           ];
 
           shellHook = ''
@@ -37,7 +39,7 @@ indent = { tab-width = 4, unit = "\t" }
 config.zls.zig_exe_path = "${pkgs.zig}/bin/zig"
 EOF
 
-            echo "Scripts available: zc.sh, zcr.sh, zd.sh"
+            echo "Scripts available: zc.sh, zcr.sh, zd.sh, zc1.sh, zrc1.sh"
           '';
         };
       }

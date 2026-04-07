@@ -24,6 +24,10 @@ zig build-exe main.zig -O Debug
 | `zc.sh <file.zig>` | 翻译 Zig 代码到 C |
 | `zcr.sh <file.zig>` | 翻译到 C (输出信息) |
 | `zd.sh <file.zig>` | 使用 lldb 调试 |
+| `zc1.sh <file.zig>` | 翻译到 C + LLVM优化 + 最小化压缩 |
+| `zrc1.sh <file.zig>` | 翻译到 C + 优化压缩 (输出信息) |
+
+**压缩效果**: 原始 ~4.5MB → 优化后 ~3.9MB (减少 ~14%)
 
 ## 依赖
 
